@@ -1,0 +1,30 @@
+name: Script problem
+description: A script draws something wrong, repaints, or does not compile.
+labels: [bug]
+body:
+  - type: input
+    id: script
+    attributes:
+      label: Script
+      description: The file name or the name shown on TradingView.
+    validations:
+      required: true
+  - type: input
+    id: chart
+    attributes:
+      label: Symbol and timeframe
+      placeholder: "XAUUSD, 15m"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you saw, and what you expected instead. Add a screenshot if you can.
+    validations:
+      required: true
+  - type: textarea
+    id: settings
+    attributes:
+      label: Settings you changed
+      description: Leave empty if you used the defaults.
