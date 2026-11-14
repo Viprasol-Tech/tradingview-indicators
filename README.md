@@ -12,7 +12,7 @@
 <p align="center">
   <a href="https://www.tradingview.com/u/viprasol/"><img src="https://img.shields.io/badge/TradingView-%40viprasol-25342f?style=flat-square&logo=tradingview&logoColor=d9ae58" alt="TradingView profile: @viprasol"></a>
   <img src="https://img.shields.io/badge/Pine%20Script-v5%20%2F%20v6-25342f?style=flat-square" alt="Pine Script v5 and v6">
-  <img src="https://img.shields.io/badge/scripts-30-25342f?style=flat-square" alt="30 scripts">
+  <img src="https://img.shields.io/badge/scripts-29-25342f?style=flat-square" alt="29 scripts">
   <a href="LICENSE"><img src="https://img.shields.io/badge/licence-MPL--2.0-25342f?style=flat-square" alt="Licence: MPL 2.0"></a>
   <a href="https://t.me/viprasol_help"><img src="https://img.shields.io/badge/Telegram-viprasol__help-25342f?style=flat-square&logo=telegram&logoColor=d9ae58" alt="Telegram"></a>
   <a href="https://github.com/Viprasol-Tech/tradingview-indicators/stargazers"><img src="https://img.shields.io/github/stars/Viprasol-Tech/tradingview-indicators?style=flat-square&color=765820" alt="GitHub stars"></a>
@@ -26,9 +26,9 @@
 
 ## What's here
 
-30 scripts, 13,133 lines of Pine Script: 29 indicators and 1 strategy. Every file is the
-source exactly as published on TradingView, header included. Together they have 14,503 boosts on
-TradingView as of 14 November 2026.
+29 indicators, 12,818 lines of Pine Script, all open source. Every file is the source exactly
+as published on TradingView, header included. Together they have 14,395 boosts on TradingView as
+of 14 November 2026.
 
 ## Indicators
 
@@ -66,12 +66,6 @@ Sorted by TradingView boosts.
 | [Viprasol Wyckoff Schematic](indicators/wyckoff-schematic.pine) | Detects and labels Wyckoff events (SC, AR, Spring, SOS, LPS, BC, UTAD, LPSY) from volume and range rules, with phase boxes, zigzag and range lines. | 32 |
 | [Viprasol Z-Score & Stats](indicators/z-score-stats.pine) | Plots a rolling z-score of the source with 1, 2 and 3 SD bands, divergences, band re-entry marks and a statistics table. | 6 |
 
-## Strategy
-
-| Script | What it does | Boosts |
-|--------|--------------|-------:|
-| [Volatility Arbitrage Dispersion Trading Strategy](strategies/volatility-arbitrage-dispersion.pine) | Trades a beta-hedged residual of the chart asset against a five-symbol basket, entering on s-score reversals only inside a correlation regime filter. | 108 |
-
 ## How to use a script
 
 1. Open the `.pine` file here and copy all of it.
@@ -83,20 +77,17 @@ latest published version.
 
 ## Licence
 
-Each file keeps the header it was published with, and that header decides its terms.
+Everything here is under the **Mozilla Public License 2.0**. The full text is in [LICENSE](LICENSE).
 
-- **Mozilla Public License 2.0** covers the scripts whose header says so, and those with no licence
-  line, which is TradingView's default for open-source publications. The full text is in
-  [LICENSE](LICENSE).
-- **`strategies/volatility-arbitrage-dispersion.pine`** is marked "all rights reserved". Its source is
-  shown here as published; no licence to reuse it is granted.
-- **Scripts built on other authors' open-source work** keep those credits in their headers:
-  Gold Sniper Confluence (KhanSaab), Naive Bayes Order Flow (PMT), CISD Delivery Shift and
-  Real Relative Strength (community indicators).
+Each file keeps the header it was published with. A few have no licence line, which on TradingView
+means the same default licence. Scripts built on other authors' open-source work keep those credits
+in their headers: Gold Sniper Confluence (KhanSaab), Naive Bayes Order Flow (PMT), CISD Delivery
+Shift and Real Relative Strength (community indicators).
 
-One published script, *Viprasol Liquidity Trail Matrix with Signal Target*, is not mirrored here
-because it adapts work released under a non-commercial Creative Commons licence. It is available
-on TradingView.
+Two scripts on the profile are not mirrored here because they are not under an open-source licence:
+*Viprasol Liquidity Trail Matrix with Signal Target*, which adapts work released under a
+non-commercial Creative Commons licence, and *Volatility Arbitrage Dispersion Trading Strategy*,
+which is all rights reserved. Both are available on TradingView.
 
 ## Contributing
 
